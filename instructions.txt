@@ -1,0 +1,23 @@
+instructions to use ->
+
+following files must be present :-
+1)options.xlsx ->sheet name = options , rollno option 1, 2 ,3
+2)infosys.xlsx ->sheet name = Sheet1 ,rollno
+3)accenture.xlsx ->sheet name = Sheet1 ,rollno
+4)wipro.xlsx ->sheet name = Sheet1 ,rollno
+
+four files will be generated:-
+
+1)infosys_placed.txt
+2)accenture_placed.txt
+3)wipro_placed.txt
+4)unplaced.txt
+
+containing just the roll number
+
+packages required to execute this python script:-
+openpyxl
+
+execute 
+sudo apt-get install python-pip
+sudo pip install openpyxl
